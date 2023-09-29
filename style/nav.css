@@ -50,7 +50,8 @@
 }
 
 .offcanvas-nav li a:hover {
-    background: #ff6600;
+    /* background: #ff6600; */
+    background: rgba(198, 166, 166, 0.555);
     color: black;
 }
 
