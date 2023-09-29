@@ -5,33 +5,27 @@ nav.innerHTML = `<div class="container-fluid">
         <nav class="navbar bgcol_pri navbar-expand-sm nav-hide">
           <div class="container-fluid justify-content-center">
             <ul class="navbar-nav">
-              <li class="nav-item">
-
-                <a class="nav-link top-nav-text" aria-current="page" href="http://dbit.in/">DBIT Home</a>
-
-
-              </li>
-              <li class="nav-item">
-                <a class="nav-link top-nav-text" href="http://parent.dbit.in/"
-                  >Parent Login</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link top-nav-text" href="https://alumni.dbit.in/">Alumni</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link top-nav-text" href="https://moodle.dbit.in/">Moodle</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link top-nav-text" href="https://elearn.dbit.in/">E-Learn</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link top-nav-text" href="https://workshop.opensourcetutorials.in/?redirect=0">Aspire</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link top-nav-text" href="http://dbitlrc.dbit.in/">Library</a>
-              </li>
+            <li class="nav-item">
+            <a class="nav-link top-nav-text" aria-current="page" href="https://dbit.in/">DBIT Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link top-nav-text" href="http://parent.dbit.in/">Parent Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link top-nav-text" href="https://alumni.dbit.in/">Alumni</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link top-nav-text" href="https://moodle.dbit.in/">Moodle</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link top-nav-text" href="https://elearn.dbit.in/">E-Learn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link top-nav-text" href="http://dbitlrc.dbit.in/">Library</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link top-nav-text" href="https://dbcldrive.dbit.in/">DBCL Drive</a>
+          </li>
             </ul>
           </div>
         </nav>
@@ -90,7 +84,6 @@ nav.innerHTML = `<div class="container-fluid">
                   <li>
                     <a class="dropdown-item" href="/academics/academic-calendar.html">Academic Calender</a>
                   </li>
-                  <li><a class="dropdown-item" href="https://dbit.in/timetable.html">Exam Timetable</a></li>
                   <li><a class="dropdown-item" href="/academics/timetable.html">Timetable</a></li>
 
                   <li><a class="dropdown-item" href="/academics/lab.html">Laboratories</a></li>

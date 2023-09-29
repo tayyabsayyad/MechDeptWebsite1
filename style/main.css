@@ -14,10 +14,14 @@
   
     -moz-animation: my-animation 5s linear infinite;
     -webkit-animation: my-animation 5s linear infinite;
-    animation: my-animation 5s linear infinite;
+    animation: my-animation 10s linear infinite;
 }
 .scroll-text:hover {
     animation-play-state: paused;
+}
+
+.nav-link:hover {
+    color: blue;
 }
 
 .carousel-control-prev, .carousel-control-next {

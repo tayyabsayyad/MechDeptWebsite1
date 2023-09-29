@@ -4,7 +4,7 @@
 }
 
 .top-nav-text:hover {
-    color: var(--primary_color);
+    color: #ff6600;
     text-decoration: underline;
 }
 
@@ -51,6 +51,7 @@
 
 .offcanvas-nav li a:hover {
     background: #ff6600;
+    color: black;
 }
 
 @media (max-width: 1200px){
