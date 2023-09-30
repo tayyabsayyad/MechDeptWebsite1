@@ -52,3 +52,11 @@
     }
 }
 
+
+/* By Manish */
+@media(max-width: 1230px){
+    .speech{
+        display: block;
+    }
+}
+
