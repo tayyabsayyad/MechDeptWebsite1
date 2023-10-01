@@ -27,3 +27,10 @@ th, td {
 }
   
   tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+@media (max-width: 600px) {
+    .p-5 {
+      padding: 1rem!important;
+    }  
+}

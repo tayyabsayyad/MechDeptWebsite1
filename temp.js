@@ -162,7 +162,7 @@ nav.innerHTML = `
                 <a class="dropdown-item" href="/cocurricular/newsletter.html">Newsletter</a>
               </li>
               <li class="dropend drop-down">
-                <a class="dropdown-item dropdown-toggle" href="/cocurricular/events.html">Events</a>
+                <a class="dropdown-item dropdown-toggle" href="#">Events</a>
                 <ul class="dropdown-menu sub-menu">
                   <li>
                     <a class="dropdown-item" href="/cocurricular/departmentday.html">Department Day</a>
