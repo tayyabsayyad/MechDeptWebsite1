@@ -112,9 +112,7 @@ nav.innerHTML = `
               STUDENTS
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li>
-                <a class="dropdown-item" href="/academics/timetable.html">Timetable</a>
-              </li>
+              
               <li>
                 <a class="dropdown-item" href="/students/notice.html">Notice</a>
               </li>
