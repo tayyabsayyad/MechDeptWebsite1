@@ -77,5 +77,102 @@
   background-size: 100%, 100%;
   border-radius: 20%;
 }
+/* General Table Styling */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
+.table th,
+.table td {
+  padding: 12px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #dee2e6;
+}
 
+/* Header Styling */
+.table thead th {
+  background-color: #343a40; /* Dark background for headers */
+  color: #fff; /* White text for headers */
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Zebra Striping for Rows */
+.table tbody tr:nth-child(odd) {
+  background-color: #f8f9fa; /* Light gray for odd rows */
+}
+
+.table tbody tr:hover {
+  background-color: #e9ecef; /* Slightly darker gray on hover */
+}
+
+/* Link Styling */
+.table a {
+  color: #007bff; /* Bootstrap primary blue */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.table a:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: underline;
+}
+
+/* Specific Styling for Academic Year 2025-26 Table */
+.table-academic-2025 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.table-academic-2025 thead th {
+  background-color: #28a745; /* Green background for 2025-26 header */
+}
+
+.table-academic-2025 tbody tr:nth-child(odd) {
+  background-color: #e8f5e9; /* Light green for odd rows */
+}
+
+.table-academic-2025 tbody tr:hover {
+  background-color: #c8e6c9; /* Slightly darker green on hover */
+}
+
+/* Styling for SE, TE, BE Syllabus Columns */
+.table-academic-2025 .se-syllabus,
+.table-academic-2025 .te-syllabus,
+.table-academic-2025 .be-syllabus {
+  background-color: #f1f8e9; /* Light green for syllabus columns */
+}
+
+.table-academic-2025 .se-syllabus a,
+.table-academic-2025 .te-syllabus a,
+.table-academic-2025 .be-syllabus a {
+  color: #388e3c; /* Dark green for links in syllabus columns */
+  font-weight: 500;
+}
+
+.table-academic-2025 .se-syllabus a:hover,
+.table-academic-2025 .te-syllabus a:hover,
+.table-academic-2025 .be-syllabus a:hover {
+  color: #2c6f2f; /* Darker green on hover */
+}
+
+/* Table Header Adjustments for Syllabus Columns */
+.table-academic-2025 thead th:nth-child(4),
+.table-academic-2025 thead th:nth-child(5),
+.table-academic-2025 thead th:nth-child(6) {
+  background-color: #ff9800; /* Orange background for syllabus headers */
+}
+/* Center align academic year */
+.table-academic-2025 thead .academic-year-header {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #343a40;
+  color: white;
+}
