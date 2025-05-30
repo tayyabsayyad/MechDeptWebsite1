@@ -17,67 +17,223 @@
     ul {
       list-style-type: none;
     }
+
+    table th:first-child {
+      text-align: justify;
+      hyphens: auto;
+    }
+    table th:nth-child(2),
+    table td:nth-child(2) {
+      text-align: center;
+      hyphens: auto;
+    }
+    table td:first-child {
+      text-align: justify;
+      hyphens: auto;
+    }
+
+    .table-heading {
+      text-align: center;
+      font-weight: bold;
+      text-decoration: underline;
+      margin-top: 2rem;
+    }
+
+    .table-space {
+      margin-bottom: 3rem;
+    }
   </style>
 </head>
 
 <body>
   <div id="navbar"></div>
 
-  <main class="conainer-fluid">
+  <main class="container-fluid">
     <div class="row px-5">
-      <br class="row justify-content-center p-3">
+      <div class="row justify-content-center p-3">
         <h1 class="text-center">Student Recognition</h1>
-        <br></br>
+
+        <!-- Table 2023-24 -->
+        <h4 class="table-heading">First Prize in Innovex</h4>
+        <div class="row justify-content-center table-space">
+          <div class="col-md-8 p-0 justify-content-center">
+            <div class="row border rounded my-3 mx-4 py-3 bg-light">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th class="text-center table-dark" colspan="3">Academic Year 2023-24</th>
+                  </tr>
+                  <tr>
+                    <th style="width: 33.33%;">Project Title</th>
+                    <th style="width: 33.33%;">Group Members</th>
+                    <th style="width: 33.33%;">Project Guide</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>A novel 3 axis scissor kinematics based motion system with double universal joint configuration</td>
+                    <td>
+                      1. Yadav Dixita<br>
+                      2. Mane Sameep<br>
+                      3. Veer Vinayak<br>
+                      4. Salunke Ritesh
+                    </td>
+                    <td>Prof. Swapnil Gujarathi</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- Table 2022-23 -->
+        <h4 class="table-heading">First Prize in Innovex</h4>
+        <div class="row justify-content-center table-space">
+          <div class="col-md-8 p-0 justify-content-center">
+            <div class="row border rounded my-3 mx-4 py-3 bg-light">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th class="text-center table-dark" colspan="6">Academic Year 2022-23</th>
+                  </tr>
+                  <tr>
+                    <th style="width: 33.33%;">Project Title</th>
+                    <th style="width: 33.33%;">Group Members</th>
+                    <th style="width: 33.33%;">Project Guide</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Leg cast using photogrammetry</td>
+                    <td>
+                      1. Neel Ajay Ved<br>
+                      2. Priyank Rajesh Panchal<br>
+                      3. Dev Janak Parmar<br>
+                      4. Shaun Pinto
+                    </td>
+                    <td>Prof. Shreeprasad Manohar</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Table 2021-22 (1) -->
+        <h4 class="table-heading">First Prize in Innovex</h4>
+        <div class="row justify-content-center table-space">
+          <div class="col-md-8 p-0 justify-content-center">
+            <div class="row border rounded my-3 mx-4 py-3 bg-light">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th class="text-center table-dark" colspan="6">Academic Year 2021-22</th>
+                  </tr>
+                  <tr>
+                    <th style="width: 33.33%;">Project Title</th>
+                    <th style="width: 33.33%;">Group Members</th>
+                    <th style="width: 33.33%;">Project Guide</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Design and Fabrication of floating garbage collection system</td>
+                    <td>
+                      1. Hrishokesh Raul<br>
+                      2. Mihir Gosavi<br>
+                      3. Viraj Yeole<br>
+                      4. Indrajeet Yadav
+                    </td>
+                    <td>Dr. Shashikant pawar</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- Table 2021-22 (2) -->
+        <h4 class="table-heading">First Prize in e-Innovex</h4>
+        <div class="row justify-content-center table-space">
+          <div class="col-md-8 p-0 justify-content-center">
+            <div class="row border rounded my-3 mx-4 py-3 bg-light">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th class="text-center table-dark" colspan="4">Academic Year 2020-21</th>
+                  </tr>
+                  <tr>
+                    <th style="width: 33.33%;">Project Title</th>
+                    <th style="width: 33.33%;">Group Members</th>
+                    <th style="width: 33.33%;">Project Guide</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Paper box making machine</td>
+                    <td>
+                      1. Nihar Chavan<br>
+                      2. Anjaney Thakur<br>
+                      3. Aditya More
+                    </td>
+                    <td>Prof. Johnson Nellisery</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- Recognition section -->
         <ul>
           <li>
-          <h3>1. AEROTHON 2021</h3>
-        </li>
-          <li>Hearties congratulations to project students guided by <b>Prof. Johnson Nellisery</b> for participating and
-            getting selected for nomination in <b>AEROTHON 2020-21</b></li>
-          <h5 class=""><a href="/assets/pdf/Excellence.pdf">Excellence Certificate</a></h5>
+            <h3>1. AEROTHON 2021</h3>
+          </li>
+          <li>
+            Heartiest congratulations to project students guided by <b>Prof. Johnson Nellisery</b> for participating and
+            getting selected for nomination in <b>AEROTHON 2020-21</b>
+          </li>
+          <h5><a href="/assets/pdf/Excellence.pdf">Excellence Certificate</a></h5>
           <br>
           <ol><b>
-            <h4>Group Members:</h4>
-            <li>Androse Fernandes </li>
-            <li>Samuel D’silva </li>
-            <li>Clive Lewise</li>
-            <li>Daryl Gomes</li>
-          </b>
-        </ol>
+              <h4>Group Members:</h4>
+              <li>Androse Fernandes</li>
+              <li>Samuel D’silva</li>
+              <li>Clive Lewise</li>
+              <li>Daryl Gomes</li>
+            </b>
+          </ol>
           <br><br>
           <li>
             <h3>2. Waste Heat Recovery from Kitchen</h3>
           </li>
-          <li>Heartiest congratulations to the final year project group guided by <b>Prof. Cleta Pereira</b> on receiving a <b>grant of INR 50,000/- from
-            ISHRAE</b> under ISPG_UG (ISHRAE STUDENT PROJECT GRANT_UNDERGRADUATE) for the project entitled</li> <br>
+          <li>
+            Heartiest congratulations to the final year project group guided by <b>Prof. Cleta Pereira</b> on receiving a <b>grant of INR 50,000/- from ISHRAE</b> under ISPG_UG (ISHRAE STUDENT PROJECT GRANT_UNDERGRADUATE) for the project entitled
+          </li>
+          <br>
           <ol><b>
               <h4>Group Members:</h4>
-              <li>Swarupa Suoshe </li>
-              <li>Rejin Jacob </li>
+              <li>Swarupa Suoshe</li>
+              <li>Rejin Jacob</li>
               <li>Vinoy Varghese</li>
               <li>Yogesh Yadav</li>
             </b>
           </ol>
         </ul>
-      </div>
 
+      </div>
     </div>
   </main>
 
   <div style="padding: 2rem;"></div>
 
-  <div id = "footer">
+  <div id="footer"></div>
 
-  </div>
   <script src="/header.js"></script>
-
-  <!-- scripts start  -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
-  <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   <script src="nav.js"></script>
-  <!-- scripts end  -->
 </body>
 
 </html>
