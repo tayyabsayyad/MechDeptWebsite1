@@ -194,10 +194,10 @@ nav.innerHTML = `
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li>
-                <a class="dropdown-item" href="/placement&internship/Internship_Records.html">Internship Record</a>
+                <a class="dropdown-item" href="/placement-internship/Internship_Records.html">Internship Record</a>
               </li>
               <li>
-                <a class="dropdown-item" href="/placement&internship/Placement_Records.html">Placement Record</a>
+                <a class="dropdown-item" href="/placement-internship/Placement_Records.html">Placement Record</a>
               </li>
             </ul>
           </li>
