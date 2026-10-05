@@ -71,29 +71,7 @@ function dbitOpenTestimonial(index) {
    SHOW TESTIMONIAL
    ========================================================= */
 
-function dbitShowTestimonial() {
 
-    const student =
-        dbitTestimonials[dbitCurrentTestimonial];
-
-    const image =
-        document.getElementById("dbit-popup-image");
-
-    image.src = student.image;
-    image.alt = student.name;
-
-    document.getElementById("dbit-popup-name").textContent =
-        student.name;
-
-    document.getElementById("dbit-popup-course").textContent =
-        student.course;
-
-    document.getElementById("dbit-popup-batch").textContent =
-        student.batch;
-
-    document.getElementById("dbit-popup-text").textContent =
-        student.message;
-}
 
 
 /* =========================================================
