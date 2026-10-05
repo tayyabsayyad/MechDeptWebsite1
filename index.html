@@ -229,6 +229,8 @@
         </div>
       </div>
 
+      
+
       <div class="col-md-4 p-0 justify-content-center">
         <div class="container sticky-top py-3" style="z-index: 0">
           <div class="row border rounded bg-light mx-3 justify-content-center" id="news-events">
@@ -284,6 +286,206 @@
       </div>
     </div>
   </main>
+<!-- ================= STUDENT TESTIMONIALS ================= -->
+
+<section id="dbit-testimonial-section">
+
+    <div id="dbit-testimonial-header">
+        <h2>Student Testimonials</h2>
+
+        <span id="dbit-testimonial-line"></span>
+
+        <p>
+            Hear from our students about their learning,
+            experiences and journey at DBIT.
+        </p>
+    </div>
+
+
+    <div id="dbit-testimonial-list">
+
+        <!-- Student 1 -->
+        <article class="dbit-testimonial-card"
+                 onclick="dbitOpenTestimonial(0)">
+
+            <div class="dbit-testimonial-student">
+
+                <img src=".\assets\testimonialsPictures\rahiprajapati.jpg"
+                     alt="Rahi Prajapati">
+
+                <div class="dbit-testimonial-student-info">
+                    <strong>Rahi Prajapati</strong>
+                    <small>B.E. Mechanical Engineering</small>
+                    <small>Batch 2026</small>
+                </div>
+
+            </div>
+
+            <div class="dbit-testimonial-quote">“</div>
+
+            <p>
+                My journey with ISHRAE has been one of continuous learning, responsibility, and growth. I started as a member 
+                of the Chapter Working Committee (CWC) in 2023–24, followed by serving as Marketing Chair in 2024–25 and Treasurer
+                 in 2025–26. Each role gave me valuable exposure to teamwork, communication, marketing, finance, event management, and leadership.
+                  The experiences and responsibilities I gained through ISHRAE played an important role in shaping my confidence and leadership journey, 
+                  which eventually led me to serve as the General Secretary of Don Bosco Institute of Technology. I am grateful to ISHRAE for providing me
+                   with a platform to learn, contribute, and grow beyond the classroom.
+            </p>
+
+            <button
+                type="button"
+                class="dbit-testimonial-button"
+                onclick="event.stopPropagation(); dbitOpenTestimonial(0)">
+                Read more →
+            </button>
+
+        </article>
+
+
+        <!-- Student 2 -->
+        <article class="dbit-testimonial-card"
+                 onclick="dbitOpenTestimonial(1)">
+
+            <div class="dbit-testimonial-student">
+
+                <img src=".\assets\testimonialsPictures\Soham Satvilkar Photo.JPG.jpeg"
+                     alt="Soham satvilkar">
+
+                <div class="dbit-testimonial-student-info">
+                    <strong>Soham Satvilkar</strong>
+                    <small>B.E. Mechanical Engineering</small>
+                    <small>Batch 2026</small>
+                </div>
+
+            </div>
+
+            <div class="dbit-testimonial-quote">“</div>
+
+            <p>
+                Being a part of this Don Bosco community gave me the best chance to educate, to qualify to socialize and to lead various teams leading to my overall development in professional and inter - personal skills.
+
+                Leading various cultural opportunities through Marathi club, Technical opportunities through Madgear Motorsports, HVAC Industrial Exposure through ISHRAE and Industrial Contacts and Exposure through DBIT T&P CELL enhanced my overall creativity, skill set, management and professional communication.
+
+                Forever would thank the management for the teaching effort, learning experience and guidance throughout my journey and guiding me even after my degree for my future growth.
+            </p>
+
+            <button
+                type="button"
+                class="dbit-testimonial-button"
+                onclick="event.stopPropagation(); dbitOpenTestimonial(1)">
+                Read more →
+            </button>
+
+        </article>
+
+
+        <!-- Student 3 -->
+        <article class="dbit-testimonial-card"
+                 onclick="dbitOpenTestimonial(2)">
+
+            <div class="dbit-testimonial-student">
+
+                <img src=".\assets\testimonialsPictures\vedikaMathews.jpeg"
+                     alt="vedika mathews">
+
+                <div class="dbit-testimonial-student-info">
+                    <strong>Vedika Mathews</strong>
+                    <small>B.E. Mechanical Engineering</small>
+                    <small>Batch 2026</small>
+                </div>
+
+            </div>
+
+            <div class="dbit-testimonial-quote">“</div>
+
+            <p>
+                Being a part of DBIT gave me the best platform to educate myself, qualify my skills, socialize, and lead teams — shaping my overall professional and interpersonal growth.
+
+                As President of ISHRAE DBIT, I led initiatives that built my leadership and communication skills. I drove K-12 outreach to spark engineering curiosity, organized industrial visits to Bluestar for HVAC industry exposure, and curated the Aeroflow workshop to translate theory into hands-on learning. Leading Vortex strengthened my coordination abilities, while organizing Innovex, a technical exhibition, honed my project management and cross-team collaboration.
+
+                I'm deeply thankful to the college for the countless opportunities it gave me to explore, lead, and grow. The exposure, mentorship, and platform to take on real responsibilities shaped not just my technical skill set but also my confidence and character. I'm grateful to the faculty and management for their guidance and support throughout this journey
+            </p>
+
+            <button
+                type="button"
+                class="dbit-testimonial-button"
+                onclick="event.stopPropagation(); dbitOpenTestimonial(2)">
+                Read more →
+            </button>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= TESTIMONIAL POPUP ================= -->
+
+<div id="dbit-testimonial-popup">
+
+    <div id="dbit-testimonial-popup-box">
+
+        <!-- Close -->
+        <button
+            id="dbit-testimonial-close"
+            type="button"
+            onclick="dbitCloseTestimonial()">
+            ×
+        </button>
+
+
+        <!-- Previous -->
+        <button
+            id="dbit-testimonial-prev"
+            type="button"
+            onclick="dbitPreviousTestimonial()">
+            ‹
+        </button>
+
+
+        <!-- Student Image -->
+        <div id="dbit-testimonial-popup-photo">
+
+            <img
+                id="dbit-popup-image"
+                src=""
+                alt="Student">
+
+        </div>
+
+
+        <!-- Student Information -->
+        <div id="dbit-testimonial-popup-message">
+
+            <h2 id="dbit-popup-name"></h2>
+
+            <p id="dbit-popup-course"></p>
+
+            <small id="dbit-popup-batch"></small>
+
+            <span id="dbit-popup-line"></span>
+
+            <div id="dbit-popup-quote">“</div>
+
+            <p id="dbit-popup-text"></p>
+
+        </div>
+
+
+        <!-- Next -->
+        <button
+            id="dbit-testimonial-next"
+            type="button"
+            onclick="dbitNextTestimonial()">
+            ›
+        </button>
+
+    </div>
+
+</div>
+
+<!-- ================= END STUDENT TESTIMONIALS ================= -->
 
   <div style="padding: 2rem;"></div>
 
@@ -294,6 +496,8 @@
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   <script src="nav.js"></script>
   <script src="temp.js"></script>
+
+  <script src="testimonial.js"></script>
 </body>
 
 </html>
