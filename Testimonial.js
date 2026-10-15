@@ -38,6 +38,17 @@ const dbitTestimonials = [
 
         message:
             "Being a part of DBIT gave me the best platform to educate myself, qualify my skills, socialize, and lead teams — shaping my overall professional and interpersonal growth. As President of ISHRAE DBIT, I led initiatives that built my leadership and communication skills. I drove K-12 outreach to spark engineering curiosity, organized industrial visits to Bluestar for HVAC industry exposure, and curated the Aeroflow workshop to translate theory into hands-on learning. Leading Vortex strengthened my coordination abilities, while organizing Innovex, a technical exhibition, honed my project management and cross-team collaboration. I'm deeply thankful to the college for the countless opportunities it gave me to explore, lead, and grow. The exposure, mentorship, and platform to take on real responsibilities shaped not just my technical skill set but also my confidence and character."
+    },
+
+    {
+        name: "Alden Fernandes",
+        course: "B.E. Mechanical Engineering",
+        batch: "Batch 2025",
+
+        image: "assets/testimonialsPictures/adlenfernandes.jpeg",
+
+        message:
+                "Being a part of Don Bosco Institute of Technology has been a truly enriching journey that helped me grow beyond academics. DBIT gave me the platform to learn, explore, lead, and develop both personally and professionally.My journey with ISHRAE as Membership Chair gave me valuable exposure through industrial visits, technical activities, and K-12 outreach initiatives, where we introduced school students to engineering through interactive learning. These experiences strengthened my communication, leadership, teamwork, and organisational skills. Leading NSS, being part of the Domain Club’s Problem-Solving Squad, and serving as Documentation Head of the SIE Club further developed my sense of responsibility, creativity, and problem-solving abilities.Beyond academics, the cultural activities, technical events, responsibilities, and friendships made my college journey truly memorable. I am grateful to DBIT for providing me with the opportunities to grow I will always cherish the memories, friendships, guidance from the faculty, and lessons from DBIT, and carry them with me throughout my journey."
     }
 
 ];
